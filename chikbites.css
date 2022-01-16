@@ -1,0 +1,178 @@
+body{
+	width:90%;
+	margin:auto;
+}
+
+.wrapper{
+	background: url(background-img.jpg) no-repeat;
+	background-size: cover;
+	height:100vh;
+}
+
+.navbar{
+	height: 80px;
+	width: 100%;
+	background: rgba(0,0,0,0.4);
+}
+
+.logo{
+	width: 40px;
+	height: auto;
+	padding: 10px 100px;	
+}
+	
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+
+.navbar ul li{
+	list-style: none;
+	margin:0 8px;
+	display:inline-block;
+    line-height: 80px;	
+}
+
+.navbar ul li a{
+	color:white;
+	font-size: 20px;
+	padding: 6px 13px;
+	font-family: 'roboto','sans-serif';
+}
+
+.wrapper .center{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}	
+
+.center h1{
+	color: white;
+	font-size:80px;
+	font-weight: bold;
+	width: 900px;
+	text-align: left;
+}
+
+.center h2{
+	color: white;
+	font-size:80px;
+	font-weight: bold;
+	width: 885px;
+	margin-top: 5px;
+	text-align: left;
+}
+
+.center a{
+	color:white;
+	font-size:20px;
+	background-color:red;
+	padding:6px 13px;
+	font-weight: bold;
+}
+
+.time{
+	position:absolute;
+	bottom:0;
+	left:0;
+	margin-left:5%;
+	color:white;
+	font-size:20px;
+	background-color:black;
+	padding:6px;
+}
+
+.menu{
+	margin-top:60px;
+	width:58%;
+	height:100px;
+	float:left;
+}
+
+.menu dl dt{
+	color:#3C08D3;
+	height:50px;
+	font-weight:bolder;
+	font-size:25px;
+	font-style:italic;
+}
+
+.menu dl dd{
+	color:#D41485;
+	font-size:20px;
+	height:50px;
+}
+
+#photo{
+	margin-top:60px;
+	width:40%;
+	height:100px;
+	float:right;
+}
+
+.about{
+	margin-top:60px;
+}
+
+.about p{
+	color:#207C31;
+	font-size:20px;
+	font-style:italic;
+	font-weight:600px;
+	text-align:justify;
+}
+
+
+h1{
+	height:10px;
+	color:red;
+	text-align:center;
+	font-weight:bolder;
+	font-size:50px;
+}
+
+h2{
+	height:10px;
+	color:#0C0330;
+	text-align:center;
+	font-weight:bolder;
+	font-size:50px;
+}
+
+
+.hours{
+	margin-top:60px;
+	
+}
+
+
+.hours table tr:nth-child(odd){
+	background-color:#54949D;
+}
+
+.hours td{
+		padding:15px;
+		text-align:center;
+		color:#043707;
+		font-size:20px;
+		font-style:italic;
+		
+}
+
+.contact h1{
+	color:#1a0000;
+	font-size:50px;
+} 
+
+
+.contact h3{
+	color:#800000;
+	font-size:20px;
+	text-align:center;
+	font-style:italic;
+} 
+
+ 

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact</title>
+		<link rel="stylesheet" type="text/css" href="chikbites.css"/>
+	</head>
+	<body>
+		<div class="contact">
+			<h1>C O N T A C T</h1>
+			<br/>
+			<h3>please complete the form below </h3>
+			<form>
+				<input type="text" placeholder="Name" required /><br/><br/>
+				Date:<input type="date" /><br/><br/>
+				Gender:
+				Male:<input type="radio" name="Gender" value="male" />
+				Female:<input type="radio" name="Gender" value="female" />
+				Others:<input type="radio" name="Gender" value="others" /><br/><br/>
+				Place:
+				<select>
+					<option>Kaithakkad</option>
+					<option>Payyanki</option>
+					<option>Thaqwa</option>
+					<option>Cheruvathur</option>
+					<option>Padne</option>
+					<option>Edachakkai</option>
+				</select><br/><br/>
+				Preferred Item:
+				<input list="item" name="item"/>
+					<datalist id="item">
+						<option value="Snack Meals" />
+						<option value="Dinner Meals" />
+						<option value="Party Meals" />
+						<option value="Family special" />
+						<option value="Royal box" />
+						<option value="Value meals" />
+						<option value="Chicken strips" />
+					</datalist><br/><br/>
+				Languages Known:
+				malayalam:
+				<input type="checkbox" value="mal" checked/>
+				English:
+				<input type="checkbox" value="eng" checked/>
+				Hindi:
+				<input type="checkbox" value="hin" checked/>
+				Others:
+				<input type="checkbox" value="others" checked/><br/><br/>
+				<textarea rows="5" placeholder="Message/Special Requirements"></textarea><br/>
+				<button type="button">
+				message
+				</button><br/><br/>
+				<button type="button">
+				Submit
+				</button><br/><br/>
+			</form>
+		</div>
+	</body>
+</html>
+
+
