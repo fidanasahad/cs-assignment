@@ -174,7 +174,12 @@ h2{
 } 
 
 .contact p{
-	
+	color:#207C31;
+	font-size:20px;
+	font-style:italic;
+        font-variant:small-caps;
+	font-weight:600px;
+	text-align:justify;	
 }
 
 
