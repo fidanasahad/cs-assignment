@@ -163,17 +163,20 @@ h2{
 		
 }
 
+.contact{
+	backgrond-color:##85929E;
+	padding-top:32px;
+}
+
 .contact h1{
 	color:#1a0000;
 	font-size:50px;
 } 
 
+.contact p{
+	
+}
 
-.contact h3{
-	color:#800000;
-	font-size:20px;
-	text-align:center;
-	font-style:italic;
-} 
+
 
  
