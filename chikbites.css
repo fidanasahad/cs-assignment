@@ -164,7 +164,7 @@ h2{
 }
 
 .contact{
-	backgrond-color:#85929E;
+	background-color:#85929E;
 	padding-top:32px;
 }
 
@@ -174,7 +174,7 @@ h2{
 } 
 
 .contact p{
-	color:#207C31;
+	color:white;
 	font-size:20px;
 	font-style:italic;
         font-variant:small-caps;
