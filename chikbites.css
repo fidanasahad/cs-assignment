@@ -165,10 +165,7 @@ h2{
 
 .contact{
 	background-color:#85929E;
-	padding-top:32px;
-        padding-left:10px;
-        padding-right:10px;
-        Padding-bottom:30px;
+	padding:32px 15px;
 }
 
 .contact h1{
