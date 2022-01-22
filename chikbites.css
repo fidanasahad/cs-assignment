@@ -166,6 +166,8 @@ h2{
 .contact{
 	background-color:#85929E;
 	padding-top:32px;
+        padding-left:10px;
+        padding-right:10px;
 }
 
 .contact h1{
